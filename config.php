@@ -50,5 +50,5 @@ __________________________ */
 	$telegramId 	= ""; 					// Your Telegram ID
 	$telegramApiKey = ""; 					// Your Telegram API key 
 	$telegramEnable = false;				// Change to true to enable Telegram Bot
-	$telegramSendMessage 	= "https://api.telegram.org/bot".$telegramApiKey."/sendMessage"; // Full URL to post message
+	$telegramSendMessage 	= "https://api.telegram.org/bot$telegramApiKey/sendMessage"; // Full URL to post message
 ?>
